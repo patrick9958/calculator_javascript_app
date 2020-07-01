@@ -1,0 +1,2255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0148)https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/courseware/179922122c5f4cb180c57e33213faaf4/6f11927d2bfd4809b04eaa804a874711/?child=last -->
+<html lang="en"><!--<![endif]--><head dir="ltr"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript" async="" src="./hw3_webpage_files/f.txt"></script><script type="text/javascript" async="" src="./hw3_webpage_files/insight.min.js"></script><script type="text/javascript" src="./hw3_webpage_files/1beac94c95"></script><script src="./hw3_webpage_files/1601661033380488" async=""></script><script async="" src="./hw3_webpage_files/fbevents.js"></script><script type="text/javascript" async="" src="./hw3_webpage_files/6798.js"></script><script src="./hw3_webpage_files/nr-1169.min.js"></script><script src="./hw3_webpage_files/4982103.js" type="text/javascript" id="cookieBanner-4982103" data-loader="hs-scriptloader" data-hsjs-portal="4982103" data-hsjs-env="prod"></script><script src="./hw3_webpage_files/fb.js" type="text/javascript" id="hs-ads-pixel-4982103" data-ads-portal-id="4982103" data-ads-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="4982103" data-hsjs-env="prod"></script><script src="./hw3_webpage_files/4982103(1).js" type="text/javascript" id="hs-analytics"></script><script type="text/javascript" async="" src="./hw3_webpage_files/dj_qoo.js"></script><script type="text/javascript" async="" src="./hw3_webpage_files/linkid.js"></script><script type="text/javascript" async="" src="./hw3_webpage_files/dj_.js"></script><script type="text/javascript" async="" src="./hw3_webpage_files/gtm.js"></script><script type="text/javascript" async="" src="./hw3_webpage_files/analytics.js"></script><script async="" src="./hw3_webpage_files/branch-latest.min.js"></script><script type="text/javascript" async="" src="./hw3_webpage_files/analytics.min.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XA4GVl5ACwAEV1JQAA==",licenseKey:"1beac94c95",applicationID:"3343327"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(21),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(22),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),c.xhrWrappable&&t(10),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(9),s=t(8),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof x&&(this.bstStart=y.now())}),o.on(w,function(t,n){var e=t[0];e instanceof x&&i("bst",[e,n,this.bstStart,y.now()])}),a.on(m,function(t,n,e){this.bstStart=y.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){function r(t,n,e){var r=t[n];"function"==typeof r&&(t[n]=function(){var t=i(arguments),n={};o.emit(e+"before-start",[t],n);var a;n[m]&&n[m].dt&&(a=n[m].dt);var s=r.apply(this,t);return o.emit(e+"start",[t,a],s),s.then(function(t){return o.emit(e+"end",[null,t],s),t},function(t){throw o.emit(e+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(22),a=t(21);n.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,l=s.Response,p=s.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,n){r(d[h],n,f),r(l[h],n,f)}),r(s,"fetch",c),o.on(c+"end",function(t,n){var e=this;if(n){var r=n.headers.get("content-length");null!==r&&(e.rxSize=r),o.emit(c+"done",[null,n],e)}else o.emit(c+"done",[t],e)}))},{}],7:[function(t,n,e){var r=t("ee").get("history"),o=t("wrap-function")(r);n.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,n,e){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],9:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],10:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];n.exports=u;var x=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,n,e){function r(t){if(!i(t))return null;var n=window.NREUM;if(!n.loader_config)return null;var e=(n.loader_config.accountID||"").toString()||null,r=(n.loader_config.agentID||"").toString()||null,s=(n.loader_config.trustKey||"").toString()||null;if(!e||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,e,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,n,e,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:n,ti:e}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var n=!1,e=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,e=!!r.enabled),e)if(t.sameOrigin)n=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){n=!0;break}}return e&&n}var a=t(19),s=t(13);n.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],12:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);n.aborted||(e.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==n.status&&(n.status=0):i(this,t),e.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime]))}}function o(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.parsedOrigin=c(n),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,n){t.params.status=n.status;var e=w(n,t.lastSize);if(e&&(t.metrics.rxSize=e),t.sameOrigin){var r=n.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,n.loadCaptureCalled=!1,t.addEventListener("load",function(e){i(n,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var e=f(this.parsedOrigin);e&&e.header&&(n.setRequestHeader("newrelic",e.header),this.dt=e)}),u.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=m(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<l;s++)n.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),u.on("xhr-load-added",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,n){var e=""+p(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],n)}),u.on("removeEventListener-end",function(t,n){n instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],n)}),u.on("fn-start",function(t,n,e){n instanceof v&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,n){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)}),u.on("fetch-before-start",function(t){var n,e=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=f(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in e)i[a]=e[a];i.headers=new Headers(e.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],13:[function(t,n,e){var r={};n.exports=function(t){if(t in r)return r[t];var n=document.createElement("a"),e=window.location,o={};n.href=t,o.port=n.port;var i=n.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=n.hostname||e.hostname,o.pathname=n.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!n.protocol||":"===n.protocol||n.protocol===e.protocol,s=n.hostname===document.domain&&n.port===e.port;return o.sameOrigin=a&&(!n.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],14:[function(t,n,e){function r(t,n){var e=t.responseType;return"json"===e&&null!==n?n:"arraybuffer"===e||"blob"===e||"json"===e?o(t.response):"text"===e||""===e||void 0===e?o(t.responseText):void 0}var o=t(16);n.exports=r},{}],15:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(21),s=t(22),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],16:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],17:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],18:[function(t,n,e){function r(t,n){var e=t.getEntries();e.forEach(function(t){"first-paint"===t.name?c("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&c("timing",["fcp",Math.floor(t.startTime)])})}function o(t,n){var e=t.getEntries();e.length>0&&c("lcp",[e[e.length-1]])}function i(t){if(t instanceof u&&!l){var n,e=Math.round(t.timeStamp);n=e>1e12?Date.now()-e:f.now()-e,l=!0,c("timing",["fi",e,{type:t.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,s,c=t("handle"),f=t("loader"),u=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),s=new PerformanceObserver(o);try{a.observe({entryTypes:["paint"]}),s.observe({entryTypes:["largest-contentful-paint"]})}catch(d){}}if("addEventListener"in document){var l=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(t){document.addEventListener(t,i,!1)})}}},{}],19:[function(t,n,e){function r(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(n=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return n?15&n[e++]:16*Math.random()|0}var n=null,e=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(n=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}n.exports={generateUuid:r,generateCatId:o}},{}],20:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],21:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],22:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],23:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([x,e,r,a]),a}}function p(t,n){g[t]=m(t).concat(n)}function h(t,n){var e=g[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return g[t]||[]}function w(t){return d[t]=d[t]||o(e)}function v(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var g={},y={},x={on:p,addEventListener:p,removeEventListener:h,emit:e,get:w,listeners:m,context:n,buffer:v,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(21),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=b.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(21),u=t("ee"),d=t(20),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1169.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(15),t(18),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(23)},{}],"wrap-function":[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(22),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}]},{},["loader",2,12,4,3]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","queueTime":1,"applicationID":"3343327","beacon":"bam.nr-data.net","atts":"GUMRFw5MQUhRaUIVUxA+F0FVQwYeQFNDOVsDDx0bVlsMU1hFaBNGBgAQUFAVWQEfFE8EaRcSAUdrRBdRR1MZFVMWPglUWk5NVEZEVhJfDQ9GDwwZUwQGAgRSD1dQUw0GBVEHHxRBD1MVPgJAWlQ8XVxSQgpTQFtGWVlETVRZV1kBWQMRFEYaVAxFQUVSEVcQBEpDXVIUQx1fWQJTGkNIF1dYB1VsWUAIUxBDXhdEWwJEVVlFCxsWDwgXGBURVUJDUhVCPRQXUEZoClQRDARSDlZQVwUAG0FDVkcZFlkRCBBcW1lBCgIaFQBaAwY7VltCEUNWaVIeRgcTDVBaVAYeUFlCFEUHPgtAQFsKXlZpRwdRB0NeF2BFFlURGhUVUxNPB0BGRQZeRxhTD0USDQVMa1kCXVYUDUR+DQwBQltFCBAAFhpGXDMUAUdNFU8SS1RoE0UHEztGQFYXVR1RUhJpDwAKTBpUDEVBRVJIRQsbARcOBlYcEUVSFxgMFAlqQVkKREAUDVcaQBkGakFEBkJsRUMHQgdPA1BAaA5RXU8ZBVcODRcXDgZPEkBTRkhSCxIUWVVOPF5SW1JEDEApC1hRQAxCWBYERhtCCzVAUUUaEh8UTwRpFxIBR2tEF1FHUxkBUxY+CVRaTk1SX1lUDUU9EwFEQVIQRFZSFVwCTkMXUEUZAVxcVVw5XwZDXhdWWwxTWBtBVwwyBApbbBwwdAdOHFViUFFVDB9DGkBWdkQDRxcECkFdVg8bUVpYBV0iVwIEBQ5RB1cEVQBSVllUDFYHV1VSVw9WAgNZUwEDBlISHxRFA0cXBBdBa10URGxVWAldCwRGDxZZDEQeRFIXQwcSEFBQFU8SQFNGSFUXExZQWkNNXkZbaA9CBwwXFw4ETxJSRl45VQ4IAVtAFVkSdlJPNFMRFSVFXXQPWVZYQ0QaQBkGakFEBkJsRUMHQgdPA1BAaA5RXU8ZBV4DERBQRhkQWUlTFVwHV01GRlFGTVJfWVQNaQEOEVtARE1YR1tbRAxTTUZGUUZNUl9ZVA1pAQ4RW0BETUNWR0IDWBYIBVkWDVIcEU5VOUMRBBZqR0MCRFYYUANCPQwFW00ZAFhSRkMDREwDCFpXXBBvXENDRAxTTUZGUUZNXkZbaA9CBwwXFw4DTxJZQUM5XxE+BUZNWg5VR0ReBRRYBwVZR1JPEkBTRkhUDg4HXmtUDEVdQkRIQAcTEFxXVg8SCQcbRFkQBkYPFmcGXl1uFUoUEAQVQFFEF29GRVIUaQMGAVtAFVkSfllND1oOAEsAGgdDGGsHBl0WLggKQEwXGwgFaQFSH0IgFEVYUjRVUX1eEhlXUlMbBwFDGHh+Yyt6TkEIXF9SQ3dWVVwJH0IiDEdbWgYfCwUZVhhWUFQGGgZTBhNlVgBXEAhLAAcATQMFFBtETgA+EUZRRTxDR1dDAxgRBBBqWVYNSR1FXhxTQFtVABgVG1JsQ0QDRD0SEFRAUk1DVkJoC1cMGEpWVVsPQxEMBkoUGgM7QEdSEW9AQlYSU0wGAUFrWgJeShhED0wHQ14EARtBQ1ZHGQ9FPRUNWFFoD1leX0MDUkBbAlRYRAYcEU5VOUMRBBZqR0MCRFYYUANCPQwFW00ZB0VBV0MPWQxDXgcaAVEABwMPUAZQWFQABgBQBB8URQNHFwQXQWtWFkRbaUMfRgc+A0BRRBASCRREA0URCAtbGVgRHVxCXwNEQE1GTVZoFkNWRGgVQgMVARtTUhdvXldZHxgADQtWX0Q8X0ZCFVwHTkMcV2tCEFVBaUQSVxYESlJRQzxdUlhOSEUHEBFQWkMKUV8YRA9MB0NeBAEbQUNWRxkFQxATAVtAGQFcXFVcOVUNFApBRxkPRFppVAlYERQJUEYVWQEfFEQDR0wCEUdGUg1EHVRbCVUJPg1RFg1BUl9ZVA0bFFBeZVFZDWgYZXNSTklSMAcEBlobR09HA3YUBBZBXVQCXBhUWwlVCSFTBQMOVgEBBgMDBVdVV1AHVVsDBQ8AXgEDVFYNVgFQBBEaFQBaAwY7VltCEUNWaVIeRgcTDVBaVAYeRlheAF8HBTtWW0IRQ1ZpQwdUQFtGYUZCBhIfFEQDR0wDCFpXXDxTXENZEkVMDRBca1QMXkBDWgNEQFtVGRZPAW9GRVIUaREVBUFRGQRVR2laB1gbTxdQRUIGXkdfVgoYAA0LVl9EPF9GQhVcB05DDkJAaAZIQ19FA0U9CAoXDgRVAAMaFRVTE08HQEZFBl5HGFUKWQEKO1ZbQg1EQBhfElsOQ14EGBUAX0ZERANpCwVGDxZUDEVBRVJLQFNbNFBaWTsbYHIDHh1RNVYFBQ5BHBFOVTlDEQQWakdDAkRWGEQDQj0MBVtNGQBfRkREAxgRCB5QFg1SBR8URQNHFwQXQWtWFkRbU1kSXwEAEFBQaBZDVkRoAFkXDwBqXVk8XVpSUwpTFQAWUBYNQUBBWVQDRRE+FlBFQgZDRxQbRE4APhFGUUU8Q0dXQwMYEQQQallWDUkdVVgTRBEESldYWABbQGlCFlIDFQFRFg1SHBFFUhcYARQWR1FZFx5RWlgFXT0CC0BaQxAeRVNFEl8BAAgXDgZPEktUaBNFBxM7RkBWF1UdUVISaQ8ACkwaVAxFQUVSSFQODgdeR2gMRUcUDVdLHw==","transactionName":"NQQGYUZWDUNSVUMPWQxOIkBaVBdZXFgYClsRTwBfVVkEX1JGRxUYAQ4RR0dSFFFBUxkQXwcWFxtdWQdVSwx0CUMQEgFCVUUGeV1SUh4YBQQQ","applicationTime":1343,"agent":"","licenseKey":"1beac94c95"}</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  
+<title data-base-title="
+ Homework 3 - jQuery | SD4x Courseware | edX">
+  
+ Homework 3 - jQuery | Homework 3 - jQuery | SD4x Courseware | edX
+</title>
+
+
+      <script type="text/javascript">
+        /* immediately break out of an iframe if coming from the marketing website */
+        (function(window) {
+          if (window.location !== window.top.location) {
+            window.top.location = window.location;
+          }
+        })(this);
+      </script>
+
+  
+
+  <script type="text/javascript" src="./hw3_webpage_files/djangojs.2623d59dd64d.js"></script>
+  <script type="text/javascript" src="./hw3_webpage_files/ie11_find_array.bd1c6dc7a133.js"></script>
+
+  <link rel="icon" type="image/x-icon" href="https://prod-edx-edxapp-assets.edx-cdn.org/static/edx.org/images/favicon.9028de6ff678.ico">
+
+  
+  
+
+    <link href="./hw3_webpage_files/lms-style-vendor.a44d8153e6e2.css" rel="stylesheet" type="text/css">
+
+
+
+    
+  
+
+    <link href="./hw3_webpage_files/lms-main-v1.49c9dea1a557.css" rel="stylesheet" type="text/css">
+
+
+
+
+    
+    
+<script type="text/javascript" src="./hw3_webpage_files/lms-main_vendor.3c3c9a2604d6.js" charset="utf-8"></script>
+
+
+    
+    
+<script type="text/javascript" src="./hw3_webpage_files/lms-application.0e3fae472a20.js" charset="utf-8"></script>
+
+
+
+  
+    
+    
+    <script type="text/javascript" src="./hw3_webpage_files/commons.1b5cdb99073feb992d92.322c0e50288b.js"></script>
+
+
+
+  <script>
+    window.baseUrl = "https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/";
+    (function (require) {
+      require.config({
+          baseUrl: window.baseUrl
+      });
+    }).call(this, require || RequireJS.require);
+  </script>
+  <script type="text/javascript" src="./hw3_webpage_files/require-config.38226099c6ad.js"></script>
+  
+    <script type="text/javascript">
+        (function (require) {
+          require.config({
+              paths: {
+                'js/student_account/logistration_factory': 'js/student_account/logistration_factory.ee02f25dcea2',
+'course_bookmarks/js/views/bookmark_button': 'course_bookmarks/js/views/bookmark_button.d4cfaf3361fa',
+'js/groups/views/cohorts_dashboard_factory': 'js/groups/views/cohorts_dashboard_factory.7f46663f97b4',
+'js/courseware/course_info_events': 'js/courseware/course_info_events.2fc35b57627f',
+'js/courseware/link_clicked_events': 'js/courseware/link_clicked_events',
+'js/dateutil_factory': 'js/dateutil_factory.be68acdff619',
+'moment': 'common/js/vendor/moment-with-locales.43ec67e44612',
+'moment-timezone': 'common/js/vendor/moment-timezone-with-data.60142e6c4416',
+'js/groups/discussions_management/discussions_dashboard_factory': 'js/discussions_management/views/discussions_dashboard_factory.2e10d9097343',
+'js/courseware/courseware_factory': 'js/courseware/courseware_factory.1504fc10caef',
+'js/courseware/toggle_element_visibility': 'js/courseware/toggle_element_visibility.d5f10bc65ed0',
+'hls': 'common/js/vendor/hls.8f15a0109b05',
+'js/views/message_banner': 'js/views/message_banner.bc5a1361d5f5',
+'js/courseware/accordion_events': 'js/courseware/accordion_events.6064c7809de5',
+'draggabilly': 'js/vendor/draggabilly.26caba6f7187'
+            }
+          });
+        }).call(this, require || RequireJS.require);
+    </script>
+  
+
+  
+
+  
+
+    <link href="./hw3_webpage_files/lms-style-course-vendor.dc9629c68006.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+
+    <link href="./hw3_webpage_files/lms-course.25afd8a2f890.css" rel="stylesheet" type="text/css">
+
+
+
+
+  
+
+    <link href="./hw3_webpage_files/lms-style-student-notes.a35233ec9b00.css" rel="stylesheet" type="text/css">
+
+
+
+
+<script type="text/javascript" src="./hw3_webpage_files/jquery.autocomplete.3bd10d7510d2.js"></script>
+<script type="text/javascript" src="./hw3_webpage_files/tooltip_manager.da362490e199.js"></script>
+
+<link href="./hw3_webpage_files/jquery.autocomplete.efeb242dd532.css" rel="stylesheet" type="text/css">
+  
+
+  
+
+  
+
+<script type="text/plain" id="upgrade_user" data-link="https://ecommerce.edx.org/basket/add/?sku=7D1F307" data-price="$149">
+</script>
+
+  
+
+
+<script type="application/json" id="user-metadata">
+    {"upgrade_price": "$149", "pacing_type": "self_paced", "course_end": "2021-10-16T00:00:00+00:00", "partition_groups": {"Feature-based Enrollments": [1, "Limited-access Users"], "Enrollment Track Groups": [1, "Audit"]}, "course_duration": 2419200.0, "audit_access_deadline": "2020-07-18T00:14:11+00:00", "course_key_fields": {"course": "SD4x", "run": "3T2019", "org": "PennX"}, "user_id": 34841304, "enrollment_time": "2020-06-20T00:14:11+00:00", "email": "pmn99@comcast.net", "program_key_fields": null, "has_staff_access": false, "upgrade_link": "https://ecommerce.edx.org/basket/add/?sku=7D1F307", "forum_roles": [["Student"]], "course_upgrade_deadline": "2021-10-06T23:59:59+00:00", "username": "patrick_neggie", "has_non_audit_enrollments": false, "course_id": "course-v1:PennX+SD4x+3T2019", "course_start": "2019-10-16T00:00:00+00:00", "enrollment_mode": "audit", "dynamic_upgrade_deadline": "2020-07-11T00:14:11.215548+00:00", "schedule_start": "2020-06-20T00:14:11.215548+00:00"}
+</script>
+
+  
+
+  
+
+<script src="./hw3_webpage_files/1743970571.js"></script>
+
+  
+
+
+<!-- begin Segment -->
+<script type="text/javascript">
+  // Asynchronously load Segment's analytics.js library
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+  analytics.load("8fncv13bt5");
+  analytics.page();
+  }}();
+  // Note: user tracking moved to segment-io-footer.html
+</script>
+<!-- end Segment -->
+
+
+  <meta name="path_prefix" content="">
+  
+    <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY">
+
+  <meta name="openedx-release-line" content="master">
+
+
+
+
+    <script type="text/javascript">
+        (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
+        branch.init('key_live_mfvq10qtrE7sjWpz2NHVNlnfrqamuY8u');
+    </script>
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="https://prod-edx-edxapp-assets.edx-cdn.org/static/js/edxnotes/views/notes_visibility_factory.fab487923921.js?raw" src="./hw3_webpage_files/notes_visibility_factory.fab487923921.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="https://prod-edx-edxapp-assets.edx-cdn.org/static/js/dateutil_factory.be68acdff619.js?raw" src="./hw3_webpage_files/dateutil_factory.be68acdff619.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.react-json-view .copy-to-clipboard-container{vertical-align:top;display:none}.react-json-view .click-to-add,.react-json-view .click-to-edit,.react-json-view .click-to-remove{display:none}.react-json-view .object-content .variable-row:hover .click-to-edit,.react-json-view .object-content .variable-row:hover .click-to-remove,.react-json-view .object-key-val:hover>span>.object-meta-data>.click-to-add,.react-json-view .object-key-val:hover>span>.object-meta-data>.click-to-remove,.react-json-view .object-key-val:hover>span>.object-meta-data>.copy-to-clipboard-container,.react-json-view .variable-row:hover .copy-to-clipboard-container{display:inline-block}</style><style type="text/css" id="ki-x93-xp1"></style><style type="text/css" id="ki-x93-xaa"></style><script async="" src="./hw3_webpage_files/js"></script><script src="./hw3_webpage_files/f(1).txt"></script></head>
+
+<body class="ltr view-in-course view-courseware courseware  lang_en"><div id="MathJax_Message" style="display: none;"></div>
+
+
+<div id="page-prompt"></div>
+  <div class="window-wrap" dir="ltr">
+    
+    <a class="nav-skip sr-only sr-only-focusable" href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/courseware/179922122c5f4cb180c57e33213faaf4/6f11927d2bfd4809b04eaa804a874711/?child=last#main">Skip to main content</a>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="global-header slim">
+        
+    
+
+    <script type="text/javascript" src="./hw3_webpage_files/CookiePolicyBanner.ddb8785476c52c5eabc8.0e1b34e85a92.js"></script>
+    <script type="text/javascript" src="./hw3_webpage_files/ReactRenderer.38f3e5ba7663cd969581.4f3dd33a415e.js"></script>
+
+    <div id="frontend-component-cookie-policy-banner"><div lang="en" class="edx-cookie-banner-wrapper" role="complementary" aria-label="Notice about use of cookies on edx.org." aria-live="polite"><div class="edx-cookie-banner alert fade alert-dismissible alert-warning show" role="alert"><button aria-label="Close the notice about use of cookies on edx.org." class="btn close" type="button"><span aria-hidden="true">×</span></button><div class="alert-dialog"><span>EdX and its Members use cookies and other tracking technologies for performance, analytics, and marketing purposes. By using this website, you accept this use. Learn more about these technologies in the <a href="https://edx.org/edx-privacy-policy" class="policy-link">Privacy Policy</a>.</span></div></div></div></div>
+    <script type="text/javascript">
+      var c;
+      try { c = CookiePolicyBanner; } catch (e) { c = null; }
+      new ReactRenderer({
+        component: c,
+        selector: '#frontend-component-cookie-policy-banner',
+        componentName: 'CookiePolicyBanner',
+        props: {}
+      });
+    </script>
+
+    <div class="main-header">
+        
+
+
+
+
+
+<h1 class="header-logo">
+  <a href="https://courses.edx.org/dashboard">
+    
+    <img class="logo" src="./hw3_webpage_files/logo.790c9a5340cb.png" alt="edX Home Page">
+    
+  </a>
+    <div class="course-header">
+      <span class="provider">PennX:</span>
+      <span class="course-number">SD4x</span>
+      
+      <span class="course-name">Programming for the Web with JavaScript</span>
+    </div>
+</h1>
+
+        <div class="hamburger-menu" role="button" aria-label="Options" menu="" aria-expanded="false" aria-controls="mobile-menu" tabindex="0">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+            
+
+
+
+
+
+
+
+
+<div class="nav-links">
+  <div class="main">
+
+  </div>
+  <div class="secondary">
+    <div class="mobile-nav-item hidden-mobile nav-item">
+        <a class="help-link" href="https://support.edx.org/" rel="noopener" target="_blank">Help</a>
+    </div>
+    
+
+
+
+
+
+
+<div class="nav-item hidden-mobile">
+    <a href="https://courses.edx.org/dashboard" class="menu-title">
+        <img class="user-image-frame" src="./hw3_webpage_files/default_50.76570a4d025e.png" alt="">
+        <span class="sr-only">Dashboard for:</span>
+        <span class="username">patrick_neggie</span>
+    </a>
+</div>
+<div class="nav-item hidden-mobile nav-item-dropdown" tabindex="-1">
+    <div class="toggle-user-dropdown" role="button" aria-label="Options" menu="" aria-expanded="false" tabindex="0" aria-controls="user-menu">
+        <span class="fa fa-caret-down" aria-hidden="true"></span>
+    </div>
+    <div class="dropdown-user-menu hidden" aria-label="More" options="" role="menu" id="user-menu" tabindex="-1">
+            <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/jump_to/block-v1:PennX+SD4x+3T2019+type@html+block@73544c1e2d6f40ceb331cccfb88923b0" role="menuitem">Resume your last course</a></div>
+        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://courses.edx.org/dashboard" role="menuitem">Dashboard</a></div>
+        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://courses.edx.org/u/patrick_neggie" role="menuitem">Profile</a></div>
+        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://courses.edx.org/account/settings" role="menuitem">Account</a></div>
+            <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://orders.edx.org/orders" role="menuitem">Order History</a></div>
+        <div class="mobile-nav-item dropdown-item dropdown-nav-item"><a href="https://courses.edx.org/logout" role="menuitem">Sign Out</a></div>
+    </div>
+</div>
+
+  </div>
+</div>
+
+    </div>
+    <div class="mobile-menu hidden" aria-label="More" options="" role="menu" id="mobile-menu"><div class="mobile-nav-item hidden-mobile nav-item mobile-nav-link">
+        <a class="help-link" href="https://support.edx.org/" rel="noopener" target="_blank" role="menuitem">Help</a>
+    </div><div class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"><a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/jump_to/block-v1:PennX+SD4x+3T2019+type@html+block@73544c1e2d6f40ceb331cccfb88923b0" role="menuitem">Resume your last course</a></div><div class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"><a href="https://courses.edx.org/dashboard" role="menuitem">Dashboard</a></div><div class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"><a href="https://courses.edx.org/u/patrick_neggie" role="menuitem">Profile</a></div><div class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"><a href="https://courses.edx.org/account/settings" role="menuitem">Account</a></div><div class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"><a href="https://orders.edx.org/orders" role="menuitem">Order History</a></div><div class="mobile-nav-item dropdown-item dropdown-nav-item mobile-nav-link"><a href="https://courses.edx.org/logout" role="menuitem">Sign Out</a></div></div>
+</header>
+
+<!--[if lte IE 9]>
+<div class="ie-banner" aria-hidden="true"><strong>Warning:</strong> Your browser is not fully supported. We strongly recommend using <a href="https://www.google.com/chrome" rel="noopener" target="_blank">Chrome</a> or <a href="http://www.mozilla.org/firefox" rel="noopener" target="_blank">Firefox</a>.</div>
+<![endif]-->
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="marketing-hero"></div>
+
+    <div class="content-wrapper main-container" id="content" dir="ltr">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/template" id="image-modal-tpl">
+    <div class="wrapper-modal wrapper-modal-image">
+  <section class="image-link">
+    <%= smallHTML%>
+    <a href="#" class="modal-ui-icon action-fullscreen" role="button">
+      <span class="label">
+        <span class="icon fa fa-arrows-alt fa-large" aria-hidden="true"></span> <%- gettext("Fullscreen") %>
+      </span>
+    </a>
+  </section>
+
+  <section class="image-modal">
+    <section class="image-content">
+      <div class="image-wrapper">
+        <img alt="<%= largeALT %>, <%- gettext('Large') %>" src="<%= largeSRC %>" />
+      </div>
+
+      <a href="#" class="modal-ui-icon action-close" role="button">
+        <span class="label">
+          <span class="icon fa fa-remove fa-large" aria-hidden="true"></span> <%- gettext("Close") %>
+        </span>
+      </a>
+
+      <ul class="image-controls">
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-in" role="button">
+            <span class="label">
+              <span class="icon fa fa fa-search-plus fa-large" aria-hidden="true"></span> <%- gettext("Zoom In") %>
+            </span>
+          </a>
+        </li>
+
+        <li class="image-control">
+          <a href="#" class="modal-ui-icon action-zoom-out is-disabled" aria-disabled="true" role="button">
+            <span class="label">
+              <span class="icon fa fa fa-search-minus fa-large" aria-hidden="true"></span> <%- gettext("Zoom Out") %>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </section>
+</div>
+
+</script>
+
+
+
+
+
+
+
+
+<div class="message-banner" aria-live="polite"></div>
+
+  
+
+
+
+
+
+
+
+
+    
+        <nav class="courseware wrapper-course-material" aria-label="Course Material">
+            <div class="course-material">
+                
+                <ol class="tabs course-tabs">
+                    
+
+
+
+
+
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/course/" class="active">
+  Course
+      <span class="sr">, current location</span>
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/discussion/forum/" class="">
+  Discussion
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/05b9e481c9b24f48bab96ecc4b53ad73/" class="">
+  Course Handouts
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/progress" class="">
+  Progress
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/e8f5799d7c844300a56aaba810385624/" class="">
+  Additional Resources
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/edxnotes/" class="">
+  Notes
+  </a>
+  </li>
+  
+  <li class="tab">
+  <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/dates" class="">
+  Dates
+  </a>
+  </li>
+
+                    
+                </ol>
+            </div>
+        </nav>
+
+
+<div class="container" lang="en">
+  <div class="course-wrapper" role="presentation">
+
+    <section class="course-content" id="course-content">
+        <header class="page-header has-secondary">
+            <div class="page-header-main">
+                <nav aria-label="Course" class="sr-is-focusable" tabindex="-1">
+                    <div class="has-breadcrumbs">
+                        <div class="breadcrumbs">
+                                <span class="nav-item nav-item-course">
+                                    <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/course/">Course</a>
+                                </span>
+                                <span class="icon fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="nav-item nav-item-chapter" data-course-position="4" data-chapter-position="4">
+                                    <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/course/#block-v1:PennX+SD4x+3T2019+type@chapter+block@179922122c5f4cb180c57e33213faaf4">Week 2: Using JavaScript to Create Dynamic, Data-Driven Web Pages</a>
+                                </span>
+                                <span class="icon fa fa-angle-right" aria-hidden="true"></span>
+                                <span class="nav-item nav-item-section">
+                                    <a href="https://courses.edx.org/courses/course-v1:PennX+SD4x+3T2019/course/#block-v1:PennX+SD4x+3T2019+type@sequential+block@6f11927d2bfd4809b04eaa804a874711">Homework 3 - jQuery</a>
+                                </span>
+                                <span class="icon fa fa-angle-right" aria-hidden="true"></span>
+                            <span class="nav-item nav-item-sequence">Homework 3 - jQuery</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main" tabindex="-1" aria-label="Content">
+
+              
+<div class="xblock xblock-student_view xblock-student_view-sequential xmodule_display xmodule_SequenceModule xblock-initialized" data-type="Sequence" data-course-id="course-v1:PennX+SD4x+3T2019" data-graded="True" data-has-score="False" data-init="XBlockToXModuleShim" data-request-token="64798b0cbbdd11eab47212e15f6b37e1" data-block-type="sequential" data-runtime-class="LmsRuntime" data-runtime-version="1" data-usage-id="block-v1:PennX+SD4x+3T2019+type@sequential+block@6f11927d2bfd4809b04eaa804a874711">
+  
+  
+
+
+<div id="sequence_6f11927d2bfd4809b04eaa804a874711" class="sequence" data-id="block-v1:PennX+SD4x+3T2019+type@sequential+block@6f11927d2bfd4809b04eaa804a874711" data-position="1" data-ajax-url="/courses/course-v1:PennX+SD4x+3T2019/xblock/block-v1:PennX+SD4x+3T2019+type@sequential+block@6f11927d2bfd4809b04eaa804a874711/handler/xmodule_handler" data-next-url="/courses/course-v1:PennX+SD4x+3T2019/courseware/179922122c5f4cb180c57e33213faaf4/18ce25e81e104930a6a75c4dcbc30171/?child=first" data-prev-url="/courses/course-v1:PennX+SD4x+3T2019/courseware/179922122c5f4cb180c57e33213faaf4/bd292c78176a42af894f1d168a52544e/?child=last" data-save-position="true" data-show-completion="true">
+
+  <div class="sequence-nav">
+    <button class="sequence-nav-button button-previous">
+      <span class="icon fa fa-chevron-prev" aria-hidden="true"></span>
+      <span class="sequence-nav-button-label">Previous</span>
+    </button>
+    <button class="sequence-nav-button button-next">
+      <span class="sequence-nav-button-label">Next</span>
+      <span class="icon fa fa-chevron-next" aria-hidden="true"></span>
+    </button>
+    <nav class="sequence-list-wrapper" aria-label="Sequence">
+      <ol id="sequence-list" role="tablist">
+        <li role="presentation">
+          <button class="seq_problem nav-item tab active" role="tab" tabindex="0" aria-selected="true" aria-expanded="true" aria-controls="seq_content" data-index="0" data-id="block-v1:PennX+SD4x+3T2019+type@vertical+block@707951204e3543e3b8369787a528b634" data-element="1" data-page-title="Homework 3 - jQuery" data-path="Week 2: Using JavaScript to Create Dynamic, Data-Driven Web Pages &gt; Homework 3 - jQuery &gt; Homework 3 - jQuery" data-graded="True" id="tab_0">
+            <span class="icon fa seq_problem" aria-hidden="true"></span>
+              <span class="fa fa-check-circle check-circle is-hidden" style="color:green" aria-hidden="true"></span>
+            <span class="fa fa-fw fa-bookmark bookmark-icon is-hidden" aria-hidden="true"></span>
+            <div class="sequence-tooltip sr"><span class="sr">problem&nbsp;</span>Homework 3 - jQuery<span class="sr bookmark-icon-sr">&nbsp;</span></div>
+          </button>
+        </li>
+      </ol>
+    </nav>
+  </div>
+  <div class="sr-is-focusable" tabindex="-1"></div>
+
+  <div id="seq_contents_0" aria-labelledby="tab_0" aria-hidden="true" class="seq_contents tex2jax_ignore asciimath2jax_ignore">
+                &lt;div class="course-expiration-message"&gt;&lt;strong&gt;Audit Access Expires &lt;span class="localized-datetime" data-format="shortDate"         data-datetime="2020-07-18" data-language="en"&gt;Jul 18, 2020&lt;/span&gt;&lt;/strong&gt;&lt;br&gt;You lose all access to this course, including your progress, on &lt;span class="localized-datetime" data-format="shortDate"         data-datetime="2020-07-18" data-language="en"&gt;Jul 18, 2020&lt;/span&gt;.&lt;br&gt;Upgrade by &lt;span class="localized-datetime" data-format="shortDate"         data-datetime="2020-07-11" data-language="en"&gt;Jul 11, 2020&lt;/span&gt; to get unlimited access to the course as long as it exists on the site. &lt;a href="https://ecommerce.edx.org/basket/add/?sku=7D1F307"&gt;Upgrade now&lt;span class="sr-only"&gt; to retain access past &lt;span class="localized-datetime" data-format="shortDate"         data-datetime="2020-07-18" data-language="en"&gt;Jul 18, 2020&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+        
+&lt;div class="xblock xblock-student_view xblock-student_view-vertical" data-course-id="course-v1:PennX+SD4x+3T2019" data-graded="True" data-has-score="False" data-init="VerticalStudentView" data-request-token="64798b0cbbdd11eab47212e15f6b37e1" data-block-type="vertical" data-runtime-class="LmsRuntime" data-runtime-version="1" data-usage-id="block-v1:PennX+SD4x+3T2019+type@vertical+block@707951204e3543e3b8369787a528b634"&gt;
+  
+
+
+
+
+
+  &lt;h2 class="hd hd-2 unit-title"&gt;Homework 3 - jQuery&lt;/h2&gt;
+
+  
+  &lt;div class="vert-due-date"&gt;
+    &lt;div class="localized-datetime" data-datetime="2020-07-06 00:14:11.215548+00:00" data-string="Homework due {date}" data-timezone="None"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  
+
+
+
+&lt;div class="bookmark-button-wrapper"&gt;
+  &lt;button class="btn btn-link bookmark-button "
+    aria-pressed="false"
+    data-bookmark-id="patrick_neggie,block-v1:PennX+SD4x+3T2019+type@vertical+block@707951204e3543e3b8369787a528b634"
+    data-bookmarks-api-url="/api/bookmarks/v1/bookmarks/"&gt;
+     &lt;span class="bookmark-text"&gt;Bookmark this page&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/div&gt;
+
+
+&lt;div class="vert-mod"&gt;
+    &lt;div class="vert vert-0" data-id="block-v1:PennX+SD4x+3T2019+type@html+block@f1499847811e4774be25bb13b78f2600"&gt;
+        
+&lt;div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock" data-course-id="course-v1:PennX+SD4x+3T2019" data-graded="True" data-has-score="False" data-init="XBlockToXModuleShim" data-request-token="64798b0cbbdd11eab47212e15f6b37e1" data-mark-completed-on-view-after-delay="1000" data-block-type="html" data-runtime-class="LmsRuntime" data-runtime-version="1" data-usage-id="block-v1:PennX+SD4x+3T2019+type@html+block@f1499847811e4774be25bb13b78f2600"&gt;
+  &lt;script type="json/xblock-args" class="xblock-json-init-args"&gt;
+    {"xmodule-type": "HTMLModule"}
+  &lt;/script&gt;
+  
+
+
+
+
+
+
+&lt;div id="edx-notes-wrapper-294659307652393968220505796276146116396" class="edx-notes-wrapper"&gt;
+    &lt;div class="edx-notes-wrapper-content"&gt;&lt;p&gt;In this assignment, you will develop a calculator app using JavaScript and jQuery.&nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;In completing this assignment, you will:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style="margin-top: 0pt; margin-bottom: 0pt;"&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Use the jQuery library to select HTML elements and modify their contents&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Define callback functions that are invoked as the result of user actions in the HTML page&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;Assemble a JavaScript application consisting of multiple functions&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Debugging/Error Note:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this assignment, DO NOT use any ES6 notation, as the autograder will not catch it. Additionally, do not use anything other than Class or ID selectors, such as $(.myClass) or $(#myID). Do not change the existing IDs in the HTML document, but you are free to add HTML elements, such as Classes.&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Offline Grading Note:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Upon submitting to Codio, if you are failing far more tests than you expected, try the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add "use strict"; (including the quotes) to the top of your file (This fixes a LOT of peoples' problems).&lt;/li&gt;
+&lt;li&gt;Avoid ES6 syntax (Use "var" instead of "let")&lt;/li&gt;
+&lt;li&gt;Use the Class and ID jQuery selectors instead of HTML element selectors&lt;/li&gt;
+&lt;li&gt;Declare all variables before they are used. Make sure they do not pass out of scope when they are used again&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have done the above and are still running into these errors, we will grade your code manually. However, because this can take a lot of time if many people are posting, you are limited to ONE submission. If you receive a passing grade, we will not entertain regrade requests out of fairness to the TAs' time. Make sure you test your calculator thoroughly (the cases outlined in the homework), upload your submission to Codio, and make a comment on the Offline Grading post in the Discussion forum. Make sure you're not posting anonymously! We need to know who you are!&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;If you run into errors/bugs/don't understand the output that Codio is giving you, please post in the Discussion Forum and a TA will assist you! Please do NOT email Codio as they will not review any errors you are getting.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;We will provide you with the HTML that renders a simple calculator that looks like this:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;img src="/assets/courseware/v1/b1cbf6fe88f95357b0c5129cb3fe123e/asset-v1:PennX+SD4x+3T2019+type@asset+block/calc.png" type="saveimage" target="[object Object]" height="409" width="400" alt="calc.html" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;In this assignment, you do not need to modify the appearance of the calculator, you only need to implement the functionality of entering values and performing arithmetic operations using JavaScript in the web page and jQuery to access the HTML elements.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Start by downloading the three files you will need for this assignment:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Right-click &lt;a href="/asset-v1:PennX+SD4x+3T2019+type@asset+block/calc.html" target="[object Object]"&gt;&lt;strong&gt;this link&lt;/strong&gt;&lt;/a&gt; to save "calc.html" to your computer&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Right-click &lt;a href="/assets/courseware/v1/d01791a3f82df7b8a59add453d0d077c/asset-v1:PennX+SD4x+3T2019+type@asset+block/calc.js" target="[object Object]"&gt;&lt;strong&gt;this link&lt;/strong&gt;&lt;/a&gt; to save "calc.js" to your computer&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Right-click &lt;a href="/assets/courseware/v1/c9f5aeeca3ad37bf2aa006139b935f0a/asset-v1:PennX+SD4x+3T2019+type@asset+block/jquery.js" target="[object Object]"&gt;&lt;strong&gt;this link&lt;/strong&gt;&lt;/a&gt; to save "jquery.js" to your computer&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;The calc.html file is an HTML page that you can open in your browser and consists of the basic layout of the HTML elements that comprise the calculator. In particular, this page provides the HTML for:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style="margin-top: 0pt; margin-bottom: 0pt;"&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;An input field at the top with the ID “display,” which is where the calculator’s output will be shown. This field is marked as “disabled” so that the user may not directly enter values into it.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;Buttons for the digits 0-9, with IDs “button0,” “button1,” etc.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;Buttons for the add, subtract, multiply, and divide operations, with IDs “addButton,” “subtractButton,” etc.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;Buttons with the IDs “equalsButton” and “clearButton”&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;A span with the ID “output” that you can use for debugging and displaying other output, but is not part of the calculator function itself&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;At the top of calc.html is a &lt;/span&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;span&gt; tag that includes “jquery.js,” which links the page with the jQuery library. Please be sure to use the version of jQuery that you downloaded from this page and not a different one, as this is the one that will be used during grading.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Also at the top of the file is some CSS that modifies the appearance of the buttons and input field to make them a little bigger and easier to read. You may change this CSS styling if you prefer; it will not be considered for grading.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Last, at the bottom of calc.html is a &lt;/span&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;span&gt; tag that includes “calc.js,” which is where you will implement all of the JavaScript/jQuery code. &lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Activity&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Times New Roman'; color: #ff0000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;&nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;In calc.js, write the JavaScript code using jQuery to implement the calculator functionality. Your calculator should work as a “normal” calculator would be expected to operate, but here are the different use cases that your app needs to consider:&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Case #1. Performing an operation on two numbers&lt;/strong&gt;&lt;/p&gt;
+&lt;div dir="ltr" style="margin-left: -5.75pt;"&gt;
+&lt;table style="border: none; border-collapse: collapse;"&gt;&lt;colgroup&gt;&lt;col width="55" /&gt;&lt;col width="370" /&gt;&lt;col width="176" /&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Step&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Action&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Display (using example values)&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The page is first loaded&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;(empty)&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “4”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;4&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;3&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks another numbered button, e.g. “3”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;43&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;4&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks an operator button, e.g. “+”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;43&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;5&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “7”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;7&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;6&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks another numbered button, e.g. “1”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;71&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;7&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks the equals button. In this case, the app performs the most recent arithmetic operation on the two most recent numbers that were input&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;114&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Other considerations:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul style="margin-top: 0pt; margin-bottom: 0pt;"&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;If the user chooses the divide operation and the result is not an integer, it should be displayed using floating point notation, e.g. “10” divided by “4” should produce “2.5”.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;If the user chooses the subtract operation and the result is negative, it should be displayed as a negative number, e.g. “5” minus “8” should produce “-3”. This includes subtracting from zero, too, of course.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;If the user attempts to divide by 0, the result should be shown as “Infinity”.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Case #2. Continuing an operation&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;div dir="ltr" style="margin-left: -5.75pt;"&gt;
+&lt;table style="border: none; border-collapse: collapse;"&gt;&lt;colgroup&gt;&lt;col width="55" /&gt;&lt;col width="370" /&gt;&lt;col width="176" /&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Step&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Action&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Display (using example values)&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Steps 1-7 for Case #1 above&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;114&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks an operator button, e.g. “-”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;114&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;3&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “5”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;5&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;4&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks another numbered button, e.g. “2”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;52&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;5&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks the equals button. In this case, the app performs the arithmetic operation on the result of the previous operation and the one that was most recently entered&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;62&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Case #3. Starting a new operation&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;div dir="ltr" style="margin-left: -5.75pt;"&gt;
+&lt;table style="border: none; border-collapse: collapse;"&gt;&lt;colgroup&gt;&lt;col width="55" /&gt;&lt;col width="370" /&gt;&lt;col width="176" /&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Step&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Action&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Display (using example values)&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Steps 1-7 for Case #1 above&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;114&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “1”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;3&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks another numbered button, e.g. “0”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;10&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;4&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks an operator button, e.g. “*”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;10&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;5&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “6”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;6&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;6&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks the equals button. In this case, the app performs the arithmetic operation on the two numbers that were input, and ignores the result of the previous operation&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;60&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Case #4. Performing an operation on multiple numbers&lt;/strong&gt;&lt;/p&gt;
+&lt;div dir="ltr" style="margin-left: -5.75pt;"&gt;
+&lt;table style="border: none; border-collapse: collapse;"&gt;&lt;colgroup&gt;&lt;col width="55" /&gt;&lt;col width="370" /&gt;&lt;col width="176" /&gt;&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Step&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Action&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;Display (using example values)&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The page is first loaded, or a prior operation is completed using the equals button&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “1”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;1&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;3&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks another numbered button, e.g. “3”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;13&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;4&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks an operator button, e.g. “+”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;13&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;5&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks a numbered button, e.g. “7”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;7&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;6&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks an operator button, e.g. “-”. In this case, the app performs the arithmetic operation on the two numbers that were input, using the operator that was selected between entering them.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;20&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;7&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks another numbered button, e.g. “2”&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;2&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 0pt;"&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;8&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span&gt;The user clicks the equals button. In this case, the app performs the arithmetic operation on the result of the previous operation and the one that was most recently entered&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;18&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span&gt;After step 7, the user should of course be able to continue repeating steps 6 and 7 and performing (and seeing the result of) additional operations before selecting the equals button.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Case 5: Using the clear button&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;During or after any of the cases above, if the user clicks the clear button, then the app should reset itself back to the state in which the page was just loaded. It should not reload the page, of course, but rather should clear the display and “forget” the results of prior inputs or operations. &lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Case 6: Using the equals button&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;If the app is in the “reset” state – because the page has just been loaded, or because an operation was just completed, or because the user clicked the clear button – and the user enters one or more numbers and then clicks the equals button without first selecting an operator and entering another operand, the display should be the same and the equals button should be ignored. For instance, if the app is reset and the user clicks “2” and then “3” and then “=”, the display should still read “23” and that value should be used as normal for the next button click.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Likewise, if the app is in the reset state and the user enters some numbers, and then an operator, and then clicks the equals button without entering another operand, the display should be the same and the equals button should be ignored. For instance, if the app is reset and the user clicks “1” and then “5” and then “+” and then “=”, the display should still read “15” and that value and the “+” operator should be used as normal for the next button click.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;However, if the user has just completed an operation using the equals button and then clicks the equals button again, the previous operation should be repeated using the result of the operation and the most recently entered operand. For instance, if the app is reset and the user enters “8” and then “+” and then “6” and then “=”, the display should read “14” as normal. If the user enters “=” again, the “+6” operation should be repeated and the display should now read “20”. If the user then enters “=” again, the “+6” operation should again be repeated and the display should read “26” and so on.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Case 7: Selecting multiple operators&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;If the app is in the “reset” state and the user enters some numbers, and then an operator, and then a different operator, the first operator should be ignored and the second operator should be used in the operation. For example, if the app is reset and the user enters “6” and then “+” and then “*” and then “2” and then “=”, the “+” operator should be ignored and the “*” operator should be used, so the display should read “12”.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What about…?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;You may encounter other cases that are not addressed in this document, e.g. what to do when the result of an operation exceeds the largest number that JavaScript can represent, or other sequences of clicking buttons that do not follow the ones described above. You may handle those cases in any manner you choose (or ignore them entirely!) since they will not be considered for grading in this assignment. &lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One more important note:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please do not change the IDs of any of the buttons or the “display” input field, as these IDs will be used by our tests during grading. You are free to add other attributes to the HTML elements, such as “class” attributes, but do not change the IDs.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;DO NOT use any ES6 notation, as the autograder will not catch it. Additionally, do not use anything other than Class or ID selectors, such as $(.myClass) or $(#myID).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Likewise, please do not change either of the &lt;/span&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;span&gt; tags in calc.html so that the grader can use the right .js files.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: bold;"&gt;One more important note:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Review the past few lessons to see the syntax for selecting HTML elements and registering callback functions for events using jQuery. &lt;br /&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Keep in mind that JavaScript will perform concatenation on string variables, even if the values are numeric. So don’t be surprised if you run into a situation in which ‘5’ + 1 = ‘51’. You can use the JavaScript &lt;/span&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #222222; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;Number()&lt;/span&gt;&lt;span&gt; function to convert a string variable to a numeric variable.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Before you submit&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Please be sure that:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style="margin-top: 0pt; margin-bottom: 0pt;"&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;You are using the jquery.js file that we provided and have not changed either of the &lt;/span&gt;&lt;span style="font-size: 12pt; font-family: 'Courier New'; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;span&gt; tags in calc.html&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span&gt;You have not changed the “id” attribute of any of the HTML elements in calc.html&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul style="margin-top: 0pt; margin-bottom: 0pt;"&gt;
+&lt;li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span&gt;You have not created any additional files and all of your JavaScript/jQuery code is in calc.js&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Assessment&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Your submission will be assessed using automatic grading scripts that will check that the app works correctly for various inputs and events. Your score is determined by the percentage of these tests that “pass,” i.e. that produce the correct result for the specified input or event.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;To submit your assignment, click the "BEGIN SUBMISSION" below and follow the instructions in the Codio Readme file. Be sure to upload both &lt;strong&gt;calc.html&lt;/strong&gt; and &lt;strong&gt;calc.js&lt;/strong&gt; for grading.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-rendering: optimizelegibility; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 16px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: #313131;"&gt;&lt;span style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; text-decoration-line: underline; color: #ff0000;"&gt;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;NOTE&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-rendering: optimizelegibility; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 16px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: #313131;"&gt;We have made some improvements to this assignment in Codio!&nbsp; As a result, we are retiring the older version and have started a new version.&lt;/p&gt;
+&lt;ul style="text-rendering: optimizelegibility; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; vertical-align: baseline; color: #313131;"&gt;
+&lt;li style="text-rendering: optimizelegibility; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;If you&nbsp;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;have not&lt;/strong&gt;&nbsp;started this assignment yet, please proceed using the BEGIN SUBMISSION&nbsp;link below (in the&nbsp;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;Homework #3 Submission (External&nbsp;Resource)&lt;/strong&gt;&nbsp;section).&nbsp; There is nothing more you need to do.&lt;/li&gt;
+&lt;li style="text-rendering: optimizelegibility; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;If you&nbsp;&lt;strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;have&lt;/strong&gt;&nbsp;already started this assignment in the old version, please take what you have done in the retired&nbsp;Codio course&nbsp;and submit it to the new Codio course.&nbsp; To access the retired version, please login to&nbsp;&lt;a href="https://codio.com/home/student" target="[object Object]" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #0075b4;"&gt;Codio&lt;/a&gt;&nbsp;and open the Codio course called "&lt;em style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;SD4X - Retired Version&nbsp;(Programming for the Web with JavaScript).&lt;/em&gt;&lt;span style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 1em; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;"&nbsp;&lt;/span&gt;&lt;span style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 1em; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;Copy that to the new Codio course called "&lt;em style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;"&gt;SD4X Programming for the Web with JavaScript 2020&lt;/em&gt;" (note that the new course has '2020' at the end) and proceed from there.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+  
+  &lt;script type="text/javascript"&gt;
+    (function (require) {
+        require(['https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/js/edxnotes/views/notes_visibility_factory.fab487923921.js?raw'], function () {
+          require(['js/edxnotes/views/notes_visibility_factory'], function (NotesVisibilityFactory) {
+            
+    var element = document.getElementById('edx-notes-wrapper-294659307652393968220505796276146116396');
+    NotesVisibilityFactory.VisibilityDecorator.factory(element, {"tokenUrl": "/courses/course-v1:PennX+SD4x+3T2019/edxnotes/token/", "debug": false, "courseId": "course-v1:PennX+SD4x+3T2019", "user": "21c332bce5326e98dcaf3e1a8bdfcc88", "token": "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOiAxNTkzNjM3MDE0LCAic2NvcGVzIjogWyJlbWFpbCIsICJwcm9maWxlIl0sICJwcmVmZXJyZWRfdXNlcm5hbWUiOiAicGF0cmlja19uZWdnaWUiLCAiZXhwIjogMTU5MzY0MDYxNCwgImVtYWlsIjogInBtbjk5QGNvbWNhc3QubmV0IiwgImlzcyI6ICJodHRwczovL2NvdXJzZXMuZWR4Lm9yZy9vYXV0aDIiLCAic3VwZXJ1c2VyIjogZmFsc2UsICJuYW1lIjogIlBhdHJpY2sgTmVnZ2llIiwgInZlcnNpb24iOiAiMS4yLjAiLCAiaXNfcmVzdHJpY3RlZCI6IGZhbHNlLCAiYXVkIjogImI0MTgyZDVmNDdkZmIxNWFjZjFmIiwgImdpdmVuX25hbWUiOiAiIiwgImZpbHRlcnMiOiBbXSwgInN1YiI6ICIyMWMzMzJiY2U1MzI2ZTk4ZGNhZjNlMWE4YmRmY2M4OCIsICJlbWFpbF92ZXJpZmllZCI6IHRydWUsICJhZG1pbmlzdHJhdG9yIjogZmFsc2UsICJmYW1pbHlfbmFtZSI6ICIifQ.wFSU_yCI33MHYg7Iceq4fxYwjJ87aCyumoNM7Kn32ds", "endpoint": "https://prod-edx-notes.edx.org/api/v1/", "usageId": "block-v1:PennX+SD4x+3T2019+type@html+block@f1499847811e4774be25bb13b78f2600", "eventStringLimit": 8333.333333333334}, true);
+
+          });
+        });
+    }).call(this, require || RequireJS.require);
+  &lt;/script&gt;
+
+
+&lt;/div&gt;
+
+    &lt;/div&gt;
+    &lt;div class="vert vert-1" data-id="block-v1:PennX+SD4x+3T2019+type@lti_consumer+block@31df4e93f9e14f77831384b93376963f"&gt;
+        
+
+&lt;div class="content-paywall" role="group" aria-label="Content available only to verified track learners"&gt;
+    &lt;div&gt;
+        &lt;h3&gt;
+            &lt;span class="fa fa-lock" aria-hidden="true"&gt;&lt;/span&gt;
+            Verified Track Access
+        &lt;/h3&gt;
+        &lt;span class="certSPAN_1"&gt;
+            Graded assessments are available to Verified Track learners.
+        &lt;/span&gt;
+        
+        &lt;span class="certDIV_1" style=""&gt;
+            &lt;a href="https://ecommerce.edx.org/basket/add/?sku=7D1F307" class="certA_1"&gt;
+                Upgrade to unlock (&lt;span class='price'&gt;$149&lt;/span&gt;)
+            &lt;/a&gt;
+        &lt;/span&gt;
+        
+    &lt;/div&gt;
+    &lt;img src="https://prod-edx-edxapp-assets.edx-cdn.org/static/images/edx-verified-mini-cert.97b20735244e.png"&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+  
+  &lt;script type="text/javascript"&gt;
+    (function (require) {
+        require(['https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/js/dateutil_factory.be68acdff619.js?raw'], function () {
+          require(['js/dateutil_factory'], function (DateUtilFactory) {
+            
+    DateUtilFactory.transform('.localized-datetime');
+
+          });
+        });
+    }).call(this, require || RequireJS.require);
+  &lt;/script&gt;
+
+
+&lt;/div&gt;
+
+  </div>
+  <div id="seq_content" role="tabpanel" aria-labelledby="tab_0">
+                <div class="course-expiration-message"><strong>Audit Access Expires <span class="localized-datetime" data-format="shortDate" data-datetime="2020-07-18" data-language="en">Jul 18, 2020</span></strong><br>You lose all access to this course, including your progress, on <span class="localized-datetime" data-format="shortDate" data-datetime="2020-07-18" data-language="en">Jul 18, 2020</span>.<br>Upgrade by <span class="localized-datetime" data-format="shortDate" data-datetime="2020-07-11" data-language="en">Jul 11, 2020</span> to get unlimited access to the course as long as it exists on the site. <a href="https://ecommerce.edx.org/basket/add/?sku=7D1F307">Upgrade now<span class="sr-only"> to retain access past <span class="localized-datetime" data-format="shortDate" data-datetime="2020-07-18" data-language="en">Jul 18, 2020</span></span></a></div>
+        
+<div class="xblock xblock-student_view xblock-student_view-vertical xblock-initialized" data-course-id="course-v1:PennX+SD4x+3T2019" data-graded="True" data-has-score="False" data-init="VerticalStudentView" data-request-token="64798b0cbbdd11eab47212e15f6b37e1" data-block-type="vertical" data-runtime-class="LmsRuntime" data-runtime-version="1" data-usage-id="block-v1:PennX+SD4x+3T2019+type@vertical+block@707951204e3543e3b8369787a528b634">
+  
+
+
+
+
+
+  <h2 class="hd hd-2 unit-title">Homework 3 - jQuery</h2>
+
+  
+  <div class="vert-due-date">
+    <div class="localized-datetime" data-datetime="2020-07-06 00:14:11.215548+00:00" data-string="Homework due {date}" data-timezone="None">Homework due Jul 5, 2020 20:14 EDT</div>
+  </div>
+
+  
+
+
+
+<div class="bookmark-button-wrapper">
+  <button class="btn btn-link bookmark-button" aria-pressed="false" data-bookmark-id="patrick_neggie,block-v1:PennX+SD4x+3T2019+type@vertical+block@707951204e3543e3b8369787a528b634" data-bookmarks-api-url="/api/bookmarks/v1/bookmarks/">
+     <span class="bookmark-text">Bookmark this page</span>
+    </button>
+</div>
+
+
+<div class="vert-mod">
+    <div class="vert vert-0" data-id="block-v1:PennX+SD4x+3T2019+type@html+block@f1499847811e4774be25bb13b78f2600">
+        
+<div class="xblock xblock-student_view xblock-student_view-html xmodule_display xmodule_HtmlBlock xblock-initialized" data-course-id="course-v1:PennX+SD4x+3T2019" data-graded="True" data-has-score="False" data-init="XBlockToXModuleShim" data-request-token="64798b0cbbdd11eab47212e15f6b37e1" data-mark-completed-on-view-after-delay="1000" data-block-type="html" data-runtime-class="LmsRuntime" data-runtime-version="1" data-usage-id="block-v1:PennX+SD4x+3T2019+type@html+block@f1499847811e4774be25bb13b78f2600">
+  
+  
+
+
+
+
+
+
+<div id="edx-notes-wrapper-294659307652393968220505796276146116396" class="edx-notes-wrapper"><span class="edx-notes-focus-grabber" tabindex="-1"></span><div class="annotator-wrapper">
+    <div class="edx-notes-wrapper-content"><p>In this assignment, you will develop a calculator app using JavaScript and jQuery.&nbsp;</p>
+<p><span>In completing this assignment, you will:</span></p>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li>
+<p><span>Use the jQuery library to select HTML elements and modify their contents</span></p>
+</li>
+<li>
+<p><span>Define callback functions that are invoked as the result of user actions in the HTML page</span></p>
+</li>
+<li>
+<p><span>Assemble a JavaScript application consisting of multiple functions<br><br></span></p>
+</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Debugging/Error Note:</strong></span></p>
+<p>In this assignment, DO NOT use any ES6 notation, as the autograder will not catch it. Additionally, do not use anything other than Class or ID selectors, such as $(.myClass) or $(#myID). Do not change the existing IDs in the HTML document, but you are free to add HTML elements, such as Classes.</p>
+<p><span style="text-decoration: underline;"><strong>Offline Grading Note:</strong></span></p>
+<p>Upon submitting to Codio, if you are failing far more tests than you expected, try the following:</p>
+<ul>
+<li>Add "use strict"; (including the quotes) to the top of your file (This fixes a LOT of peoples' problems).</li>
+<li>Avoid ES6 syntax (Use "var" instead of "let")</li>
+<li>Use the Class and ID jQuery selectors instead of HTML element selectors</li>
+<li>Declare all variables before they are used. Make sure they do not pass out of scope when they are used again</li>
+</ul>
+<p>If you have done the above and are still running into these errors, we will grade your code manually. However, because this can take a lot of time if many people are posting, you are limited to ONE submission. If you receive a passing grade, we will not entertain regrade requests out of fairness to the TAs' time. Make sure you test your calculator thoroughly (the cases outlined in the homework), upload your submission to Codio, and make a comment on the Offline Grading post in the Discussion forum. Make sure you're not posting anonymously! We need to know who you are!</p>
+<p><span>If you run into errors/bugs/don't understand the output that Codio is giving you, please post in the Discussion Forum and a TA will assist you! Please do NOT email Codio as they will not review any errors you are getting.<br><br></span></p>
+<p><span style="text-decoration: underline;"><strong>Background</strong></span></p>
+<p><span>We will provide you with the HTML that renders a simple calculator that looks like this:<br><br></span></p>
+<p><span style="font-size: 12pt; font-family: &#39;Times New Roman&#39;; color: #ff0000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><img src="./hw3_webpage_files/calc.png" type="saveimage" target="[object Object]" height="409" width="400" alt="calc.html"><br><br></span></p>
+<p><span>In this assignment, you do not need to modify the appearance of the calculator, you only need to implement the functionality of entering values and performing arithmetic operations using JavaScript in the web page and jQuery to access the HTML elements.<br><br></span></p>
+<p><span style="text-decoration: underline;"><strong>Getting Started</strong></span></p>
+<p><span>Start by downloading the three files you will need for this assignment:</span></p>
+<ul>
+<li><span>Right-click <a href="https://courses.edx.org/asset-v1:PennX+SD4x+3T2019+type@asset+block/calc.html" target="[object Object]"><strong>this link</strong></a> to save "calc.html" to your computer</span></li>
+<li><span>Right-click <a href="https://courses.edx.org/assets/courseware/v1/d01791a3f82df7b8a59add453d0d077c/asset-v1:PennX+SD4x+3T2019+type@asset+block/calc.js" target="[object Object]"><strong>this link</strong></a> to save "calc.js" to your computer</span></li>
+<li><span>Right-click <a href="https://courses.edx.org/assets/courseware/v1/c9f5aeeca3ad37bf2aa006139b935f0a/asset-v1:PennX+SD4x+3T2019+type@asset+block/jquery.js" target="[object Object]"><strong>this link</strong></a> to save "jquery.js" to your computer</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><span>The calc.html file is an HTML page that you can open in your browser and consists of the basic layout of the HTML elements that comprise the calculator. In particular, this page provides the HTML for:</span></p>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>An input field at the top with the ID “display,” which is where the calculator’s output will be shown. This field is marked as “disabled” so that the user may not directly enter values into it.</span></p>
+</li>
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>Buttons for the digits 0-9, with IDs “button0,” “button1,” etc.</span></p>
+</li>
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>Buttons for the add, subtract, multiply, and divide operations, with IDs “addButton,” “subtractButton,” etc.</span></p>
+</li>
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>Buttons with the IDs “equalsButton” and “clearButton”</span></p>
+</li>
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>A span with the ID “output” that you can use for debugging and displaying other output, but is not part of the calculator function itself<br><br></span></p>
+</li>
+</ul>
+<p><span>At the top of calc.html is a </span><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">&lt;script&gt;</span><span> tag that includes “jquery.js,” which links the page with the jQuery library. Please be sure to use the version of jQuery that you downloaded from this page and not a different one, as this is the one that will be used during grading.<br><br></span></p>
+<p><span>Also at the top of the file is some CSS that modifies the appearance of the buttons and input field to make them a little bigger and easier to read. You may change this CSS styling if you prefer; it will not be considered for grading.<br><br></span></p>
+<p><span>Last, at the bottom of calc.html is a </span><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">&lt;script&gt;</span><span> tag that includes “calc.js,” which is where you will implement all of the JavaScript/jQuery code. <br><br></span></p>
+<p><span style="text-decoration: underline;"><strong>Activity</strong></span></p>
+<p><span style="font-size: 12pt; font-family: &#39;Times New Roman&#39;; color: #ff0000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</span></p>
+<p><span>In calc.js, write the JavaScript code using jQuery to implement the calculator functionality. Your calculator should work as a “normal” calculator would be expected to operate, but here are the different use cases that your app needs to consider:<br><br></span></p>
+<p><strong>Case #1. Performing an operation on two numbers</strong></p>
+<div dir="ltr" style="margin-left: -5.75pt;">
+<table style="border: none; border-collapse: collapse;"><colgroup><col width="55"><col width="370"><col width="176"></colgroup>
+<tbody>
+<tr style="height: 0pt;">
+<td>
+<p><span>Step</span></p>
+</td>
+<td>
+<p><span>Action</span></p>
+</td>
+<td>
+<p><span>Display (using example values)</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>1</span></p>
+</td>
+<td>
+<p><span>The page is first loaded</span></p>
+</td>
+<td>
+<p><span>(empty)</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>2</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “4”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">4</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>3</span></p>
+</td>
+<td>
+<p><span>The user clicks another numbered button, e.g. “3”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">43</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>4</span></p>
+</td>
+<td>
+<p><span>The user clicks an operator button, e.g. “+”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">43</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>5</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “7”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">7</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>6</span></p>
+</td>
+<td>
+<p><span>The user clicks another numbered button, e.g. “1”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">71</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>7</span></p>
+</td>
+<td>
+<p><span>The user clicks the equals button. In this case, the app performs the most recent arithmetic operation on the two most recent numbers that were input</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">114</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Other considerations:</strong></p>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>If the user chooses the divide operation and the result is not an integer, it should be displayed using floating point notation, e.g. “10” divided by “4” should produce “2.5”.</span></p>
+</li>
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>If the user chooses the subtract operation and the result is negative, it should be displayed as a negative number, e.g. “5” minus “8” should produce “-3”. This includes subtracting from zero, too, of course.</span></p>
+</li>
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>If the user attempts to divide by 0, the result should be shown as “Infinity”.<br><br></span></p>
+</li>
+</ul>
+<p><span><strong>Case #2. Continuing an operation</strong> </span></p>
+<div dir="ltr" style="margin-left: -5.75pt;">
+<table style="border: none; border-collapse: collapse;"><colgroup><col width="55"><col width="370"><col width="176"></colgroup>
+<tbody>
+<tr style="height: 0pt;">
+<td>
+<p><span>Step</span></p>
+</td>
+<td>
+<p><span>Action</span></p>
+</td>
+<td>
+<p><span>Display (using example values)</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>1</span></p>
+</td>
+<td>
+<p><span>Steps 1-7 for Case #1 above</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">114</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>2</span></p>
+</td>
+<td>
+<p><span>The user clicks an operator button, e.g. “-”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">114</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>3</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “5”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">5</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>4</span></p>
+</td>
+<td>
+<p><span>The user clicks another numbered button, e.g. “2”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">52</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>5</span></p>
+</td>
+<td>
+<p><span>The user clicks the equals button. In this case, the app performs the arithmetic operation on the result of the previous operation and the one that was most recently entered</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">62</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span><strong>Case #3. Starting a new operation</strong> </span></p>
+<div dir="ltr" style="margin-left: -5.75pt;">
+<table style="border: none; border-collapse: collapse;"><colgroup><col width="55"><col width="370"><col width="176"></colgroup>
+<tbody>
+<tr style="height: 0pt;">
+<td>
+<p><span>Step</span></p>
+</td>
+<td>
+<p><span>Action</span></p>
+</td>
+<td>
+<p><span>Display (using example values)</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>1</span></p>
+</td>
+<td>
+<p><span>Steps 1-7 for Case #1 above</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">114</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>2</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “1”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>3</span></p>
+</td>
+<td>
+<p><span>The user clicks another numbered button, e.g. “0”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">10</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>4</span></p>
+</td>
+<td>
+<p><span>The user clicks an operator button, e.g. “*”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">10</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>5</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “6”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">6</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>6</span></p>
+</td>
+<td>
+<p><span>The user clicks the equals button. In this case, the app performs the arithmetic operation on the two numbers that were input, and ignores the result of the previous operation</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">60</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Case #4. Performing an operation on multiple numbers</strong></p>
+<div dir="ltr" style="margin-left: -5.75pt;">
+<table style="border: none; border-collapse: collapse;"><colgroup><col width="55"><col width="370"><col width="176"></colgroup>
+<tbody>
+<tr style="height: 0pt;">
+<td>
+<p><span>Step</span></p>
+</td>
+<td>
+<p><span>Action</span></p>
+</td>
+<td>
+<p><span>Display (using example values)</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>1</span></p>
+</td>
+<td>
+<p><span>The page is first loaded, or a prior operation is completed using the equals button</span></p>
+</td>
+<td></td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>2</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “1”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">1</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>3</span></p>
+</td>
+<td>
+<p><span>The user clicks another numbered button, e.g. “3”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">13</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>4</span></p>
+</td>
+<td>
+<p><span>The user clicks an operator button, e.g. “+”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">13</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>5</span></p>
+</td>
+<td>
+<p><span>The user clicks a numbered button, e.g. “7”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">7</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>6</span></p>
+</td>
+<td>
+<p><span>The user clicks an operator button, e.g. “-”. In this case, the app performs the arithmetic operation on the two numbers that were input, using the operator that was selected between entering them.</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">20</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>7</span></p>
+</td>
+<td>
+<p><span>The user clicks another numbered button, e.g. “2”</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">2</span></p>
+</td>
+</tr>
+<tr style="height: 0pt;">
+<td>
+<p><span>8</span></p>
+</td>
+<td>
+<p><span>The user clicks the equals button. In this case, the app performs the arithmetic operation on the result of the previous operation and the one that was most recently entered</span></p>
+</td>
+<td>
+<p><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">18</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><span>After step 7, the user should of course be able to continue repeating steps 6 and 7 and performing (and seeing the result of) additional operations before selecting the equals button.<br><br></span></p>
+<p><strong>Case 5: Using the clear button</strong></p>
+<p><span>During or after any of the cases above, if the user clicks the clear button, then the app should reset itself back to the state in which the page was just loaded. It should not reload the page, of course, but rather should clear the display and “forget” the results of prior inputs or operations. <br><br></span></p>
+<p><strong>Case 6: Using the equals button</strong></p>
+<p><span>If the app is in the “reset” state – because the page has just been loaded, or because an operation was just completed, or because the user clicked the clear button – and the user enters one or more numbers and then clicks the equals button without first selecting an operator and entering another operand, the display should be the same and the equals button should be ignored. For instance, if the app is reset and the user clicks “2” and then “3” and then “=”, the display should still read “23” and that value should be used as normal for the next button click.<br><br></span></p>
+<p><span>Likewise, if the app is in the reset state and the user enters some numbers, and then an operator, and then clicks the equals button without entering another operand, the display should be the same and the equals button should be ignored. For instance, if the app is reset and the user clicks “1” and then “5” and then “+” and then “=”, the display should still read “15” and that value and the “+” operator should be used as normal for the next button click.<br><br></span></p>
+<p><span>However, if the user has just completed an operation using the equals button and then clicks the equals button again, the previous operation should be repeated using the result of the operation and the most recently entered operand. For instance, if the app is reset and the user enters “8” and then “+” and then “6” and then “=”, the display should read “14” as normal. If the user enters “=” again, the “+6” operation should be repeated and the display should now read “20”. If the user then enters “=” again, the “+6” operation should again be repeated and the display should read “26” and so on.<br><br></span></p>
+<p><strong>Case 7: Selecting multiple operators</strong></p>
+<p><span>If the app is in the “reset” state and the user enters some numbers, and then an operator, and then a different operator, the first operator should be ignored and the second operator should be used in the operation. For example, if the app is reset and the user enters “6” and then “+” and then “*” and then “2” and then “=”, the “+” operator should be ignored and the “*” operator should be used, so the display should read “12”.<br><br></span></p>
+<p><strong>What about…?</strong></p>
+<p><span>You may encounter other cases that are not addressed in this document, e.g. what to do when the result of an operation exceeds the largest number that JavaScript can represent, or other sequences of clicking buttons that do not follow the ones described above. You may handle those cases in any manner you choose (or ignore them entirely!) since they will not be considered for grading in this assignment. <br><br></span></p>
+<p><strong>One more important note:</strong></p>
+<p><span>Please do not change the IDs of any of the buttons or the “display” input field, as these IDs will be used by our tests during grading. You are free to add other attributes to the HTML elements, such as “class” attributes, but do not change the IDs.<br><br></span></p>
+<p>DO NOT use any ES6 notation, as the autograder will not catch it. Additionally, do not use anything other than Class or ID selectors, such as $(.myClass) or $(#myID).</p>
+<p><span>Likewise, please do not change either of the </span><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">&lt;script&gt;</span><span> tags in calc.html so that the grader can use the right .js files.<br><br></span></p>
+<p><span style="font-weight: bold;">One more important note:</span></p>
+<p><span>Review the past few lessons to see the syntax for selecting HTML elements and registering callback functions for events using jQuery. <br></span><span></span></p>
+<p><span>Keep in mind that JavaScript will perform concatenation on string variables, even if the values are numeric. So don’t be surprised if you run into a situation in which ‘5’ + 1 = ‘51’. You can use the JavaScript </span><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #222222; background-color: #ffffff; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Number()</span><span> function to convert a string variable to a numeric variable.<br><br></span></p>
+<p><span style="text-decoration: underline;"><strong>Before you submit</strong></span></p>
+<p><span>Please be sure that:</span></p>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li>
+<p><span>You are using the jquery.js file that we provided and have not changed either of the </span><span style="font-size: 12pt; font-family: &#39;Courier New&#39;; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">&lt;script&gt;</span><span> tags in calc.html</span></p>
+</li>
+<li>
+<p><span>You have not changed the “id” attribute of any of the HTML elements in calc.html</span></p>
+</li>
+</ul>
+<ul style="margin-top: 0pt; margin-bottom: 0pt;">
+<li dir="ltr" style="list-style-type: disc; font-size: 12pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;">
+<p><span>You have not created any additional files and all of your JavaScript/jQuery code is in calc.js<br><br></span></p>
+</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>Assessment</strong></span></p>
+<p><span>Your submission will be assessed using automatic grading scripts that will check that the app works correctly for various inputs and events. Your score is determined by the percentage of these tests that “pass,” i.e. that produce the correct result for the specified input or event.<br><br></span></p>
+<p><span>To submit your assignment, click the "BEGIN SUBMISSION" below and follow the instructions in the Codio Readme file. Be sure to upload both <strong>calc.html</strong> and <strong>calc.js</strong> for grading.</span></p>
+<p style="text-rendering: optimizelegibility; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 16px; font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; vertical-align: baseline; color: #313131;"><span style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; text-decoration-line: underline; color: #ff0000;"><strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">NOTE</strong></span></p>
+<p style="text-rendering: optimizelegibility; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 16px; font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; vertical-align: baseline; color: #313131;">We have made some improvements to this assignment in Codio!&nbsp; As a result, we are retiring the older version and have started a new version.</p>
+<ul style="text-rendering: optimizelegibility; border: 0px; outline: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: 1.4em; font-family: &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; vertical-align: baseline; color: #313131;">
+<li style="text-rendering: optimizelegibility; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">If you&nbsp;<strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">have not</strong>&nbsp;started this assignment yet, please proceed using the BEGIN SUBMISSION&nbsp;link below (in the&nbsp;<strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Homework #3 Submission (External&nbsp;Resource)</strong>&nbsp;section).&nbsp; There is nothing more you need to do.</li>
+<li style="text-rendering: optimizelegibility; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">If you&nbsp;<strong style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">have</strong>&nbsp;already started this assignment in the old version, please take what you have done in the retired&nbsp;Codio course&nbsp;and submit it to the new Codio course.&nbsp; To access the retired version, please login to&nbsp;<a href="https://codio.com/home/student" target="[object Object]" style="text-rendering: optimizelegibility; background: transparent; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline; transition: color 0.25s ease-in-out 0s; text-decoration-line: none; color: #0075b4;">Codio</a>&nbsp;and open the Codio course called "<em style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">SD4X - Retired Version&nbsp;(Programming for the Web with JavaScript).</em><span style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 1em; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">"&nbsp;</span><span style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 1em; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">Copy that to the new Codio course called "<em style="text-rendering: optimizelegibility; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: 1.4em; font-family: inherit; vertical-align: baseline;">SD4X Programming for the Web with JavaScript 2020</em>" (note that the new course has '2020' at the end) and proceed from there.</span></li>
+</ul></div>
+<div class="annotator-outer annotator-viewer annotator-hide"><ul class="annotator-widget annotator-listing" tabindex="-1"></ul></div><div class="annotator-outer annotator-editor annotator-hide"><form class="annotator-widget" tabindex="-1"><ul class="annotator-listing"><li class="annotator-item"><textarea id="annotator-field-0" placeholder="Comments…"></textarea></li><li class="annotator-item"><input id="annotator-field-1" placeholder="Add some tags here…"></li></ul><div class="annotator-controls"><button class="annotator-save">Save<span class="sr">Note</span></button><button class="annotator-cancel">Cancel<span class="sr">Note</span></button></div></form></div><div class="annotator-adder" style="display: none;"><button>Annotate</button></div></div></div>
+
+
+  
+  <script type="text/javascript">
+    (function (require) {
+        require(['https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/js/edxnotes/views/notes_visibility_factory.fab487923921.js?raw'], function () {
+          require(['js/edxnotes/views/notes_visibility_factory'], function (NotesVisibilityFactory) {
+            
+    var element = document.getElementById('edx-notes-wrapper-294659307652393968220505796276146116396');
+    NotesVisibilityFactory.VisibilityDecorator.factory(element, {"tokenUrl": "/courses/course-v1:PennX+SD4x+3T2019/edxnotes/token/", "debug": false, "courseId": "course-v1:PennX+SD4x+3T2019", "user": "21c332bce5326e98dcaf3e1a8bdfcc88", "token": "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOiAxNTkzNjM3MDE0LCAic2NvcGVzIjogWyJlbWFpbCIsICJwcm9maWxlIl0sICJwcmVmZXJyZWRfdXNlcm5hbWUiOiAicGF0cmlja19uZWdnaWUiLCAiZXhwIjogMTU5MzY0MDYxNCwgImVtYWlsIjogInBtbjk5QGNvbWNhc3QubmV0IiwgImlzcyI6ICJodHRwczovL2NvdXJzZXMuZWR4Lm9yZy9vYXV0aDIiLCAic3VwZXJ1c2VyIjogZmFsc2UsICJuYW1lIjogIlBhdHJpY2sgTmVnZ2llIiwgInZlcnNpb24iOiAiMS4yLjAiLCAiaXNfcmVzdHJpY3RlZCI6IGZhbHNlLCAiYXVkIjogImI0MTgyZDVmNDdkZmIxNWFjZjFmIiwgImdpdmVuX25hbWUiOiAiIiwgImZpbHRlcnMiOiBbXSwgInN1YiI6ICIyMWMzMzJiY2U1MzI2ZTk4ZGNhZjNlMWE4YmRmY2M4OCIsICJlbWFpbF92ZXJpZmllZCI6IHRydWUsICJhZG1pbmlzdHJhdG9yIjogZmFsc2UsICJmYW1pbHlfbmFtZSI6ICIifQ.wFSU_yCI33MHYg7Iceq4fxYwjJ87aCyumoNM7Kn32ds", "endpoint": "https://prod-edx-notes.edx.org/api/v1/", "usageId": "block-v1:PennX+SD4x+3T2019+type@html+block@f1499847811e4774be25bb13b78f2600", "eventStringLimit": 8333.333333333334}, true);
+
+          });
+        });
+    }).call(this, require || RequireJS.require);
+  </script>
+
+
+</div>
+
+    </div>
+    <div class="vert vert-1" data-id="block-v1:PennX+SD4x+3T2019+type@lti_consumer+block@31df4e93f9e14f77831384b93376963f">
+        
+
+<div class="content-paywall" role="group" aria-label="Content available only to verified track learners">
+    <div>
+        <h3>
+            <span class="fa fa-lock" aria-hidden="true"></span>
+            Verified Track Access
+        </h3>
+        <span class="certSPAN_1">
+            Graded assessments are available to Verified Track learners.
+        </span>
+        
+        <span class="certDIV_1" style="">
+            <a href="https://ecommerce.edx.org/basket/add/?sku=7D1F307" class="certA_1">
+                Upgrade to unlock (<span class="price">$149</span>)
+            </a>
+        </span>
+        
+    </div>
+    <img src="./hw3_webpage_files/edx-verified-mini-cert.97b20735244e.png">
+</div>
+
+    </div>
+</div>
+
+
+  
+  <script type="text/javascript">
+    (function (require) {
+        require(['https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/js/dateutil_factory.be68acdff619.js?raw'], function () {
+          require(['js/dateutil_factory'], function (DateUtilFactory) {
+            
+    DateUtilFactory.transform('.localized-datetime');
+
+          });
+        });
+    }).call(this, require || RequireJS.require);
+  </script>
+
+
+</div>
+
+  </div>
+
+  <nav class="sequence-bottom" aria-label="Section">
+    <button class="sequence-nav-button button-previous">
+      <span class="icon fa fa-chevron-prev" aria-hidden="true"></span>
+      <span>Previous</span>
+    </button>
+    <button class="sequence-nav-button button-next">
+      <span>Next</span>
+      <span class="icon fa fa-chevron-next" aria-hidden="true"></span>
+    </button>
+  </nav>
+</div>
+
+</div>
+
+        </main>
+    </section>
+
+    <section class="courseware-results-wrapper">
+      <div id="loading-message" aria-live="polite" aria-relevant="all"></div>
+      <div id="error-message" aria-live="polite"></div>
+      <div class="courseware-results search-results" data-course-id="course-v1:PennX+SD4x+3T2019" data-lang-code="en"></div>
+    </section>
+
+  </div>
+  
+
+
+
+
+
+
+    <div class="verification-sock">
+        <button type="button" aria-expanded="false" class="btn btn-primary focusable action-toggle-verification-sock">
+            Learn About Verified Certificates
+        </button>
+        <div class="verification-main-panel">
+            <div class="verification-desc-panel content-main">
+                <h2>edX Verified Certificate</h2>
+                <h3>Why upgrade?</h3>
+                <ul>
+                    <li>Official proof of completion</li>
+                    <li>Easily shareable certificate</li>
+                    <li>Proven motivator to complete the course</li>
+                    <li>Certificate purchases help edX continue to offer free courses</li>
+                </ul>
+                <h3>How it works</h3>
+                <ul>
+                    <li>Pay the Verified Certificate upgrade fee</li>
+                    <li>Verify your identity with a webcam and government-issued ID</li>
+                    <li>Study hard and pass the course</li>
+                    <li>Share your certificate with friends, employers, and others</li>
+                </ul>
+                    <h3>edX Learner Stories</h3>
+                    <div class="learner-story-container">
+                        <img class="student-image" alt="Student Image" src="./hw3_webpage_files/learner-quote.05d56e5ddbc1.png">
+                        <div class="story-quote">
+                            My certificate has helped me showcase my knowledge on my                             resume - I feel like this certificate could really help me land                             my dream job!
+                            <span class="author">- Christina Fong, edX Learner</span>
+                        </div>
+                    </div>
+                    <div class="learner-story-container">
+                        <img class="student-image" alt="Student Image" src="./hw3_webpage_files/learner-quote2.39200c5db560.png">
+                        <div class="story-quote">
+                            I wanted to include a verified certificate on my resume and my profile to                             illustrate that I am working towards this goal I have and that I have                             achieved something while I was unemployed.<br>
+                            <span class="author">- Cheryl Troell, edX Learner</span>
+                        </div>
+                    </div>
+                <img class="mini-cert" alt="Example Certificate Image" src="./hw3_webpage_files/verified-cert.891c55cad756.png">
+                <a href="https://ecommerce.edx.org/basket/add/?sku=7D1F307">
+                    <div class="btn btn-upgrade stuck-top focusable action-upgrade-certificate" data-creative="original_sock" data-position="sock">
+                        Upgrade (<span class="price">$149</span>)
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    
+    <script type="text/javascript" src="./hw3_webpage_files/CourseSock.0202c1957d8234ef6792.881550144c98.js"></script>
+      <script type="text/javascript">
+        
+    new CourseSock({
+        el:'.verification-sock'
+    });
+
+      </script>
+
+
+</div>
+<div class="container-footer">
+    <div class="course-license">
+      
+
+
+    © <span class="license-text">All Rights Reserved</span>
+
+    </div>
+</div>
+    <nav class="nav-utilities " aria-label="Course Utilities">
+        
+
+
+
+
+<div class="wrapper-utility edx-notes-visibility ">
+  <span class="action-toggle-message" aria-live="polite"></span>
+  <button class="utility-control utility-control-button action-toggle-notes is-active">
+    <span class="icon fa fa-pencil" aria-hidden="true"></span>
+    <span class="utility-control-label sr">Hide notes</span>
+  </button>
+</div>
+
+
+  
+  <script type="text/javascript">
+    (function (require) {
+        require(['https://prod\u002Dedx\u002Dedxapp\u002Dassets.edx\u002Dcdn.org/static/js/edxnotes/views/notes_visibility_factory.fab487923921.js?raw'], function () {
+          require(['js/edxnotes/views/notes_visibility_factory'], function (NotesVisibilityFactory) {
+            
+    NotesVisibilityFactory.ToggleVisibilityView(
+        true,
+        '/courses/course\u002Dv1:PennX+SD4x+3T2019/edxnotes/visibility/',
+        false
+    );
+
+          });
+        });
+    }).call(this, require || RequireJS.require);
+  </script>
+
+
+
+    </nav>
+
+      
+    </div>
+
+        
+
+
+
+
+
+
+
+<footer id="footer-edx-v3" role="contentinfo" aria-label="Page Footer">
+
+<div class="container">
+    <div class="row main-row"><!-- row -->
+        <div class="col-xl-2 col-lg-12 col-md-2 col-sm-8 col-xs-10 column-1 flex-column column-styles">
+            <div class="row">
+                <div class="col-12 column-2-2 column-styles">
+                <div class="edx-footer-logo">
+                    <a href="https://www.edx.org/">
+                        <img alt="edX Home Page" src="./hw3_webpage_files/logo-footer.fde85fe42f6b.png">
+                    </a>
+                </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-xl-6 col-lg-8 col-md-9 col-sm-5 col-xs-12 column-2 flex-column column-styles">
+             <div class="row full-height">
+
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 column-2-1 col-xs-12 first-div-border column-styles ">
+                    <div class="row full-height">
+                        <div class="ml-xl-0 col-lg-10 ml-lg-auto col-md-12 column-2-2 col-sm-10 full-height column-styles">
+                              <h2 class="heading">edX</h2>
+                                  <ul class="list-unstyled clear-margins  ">
+                                      <li>
+                                          <a href="https://www.edx.org/about-us">About</a>
+                                      </li>
+                                      <li>
+                                          <a href="https://business.edx.org/?utm_source=edX.org&amp;utm_medium=Footer&amp;utm_campaign=edX.org+Referral">edX for Business</a>
+                                      </li>
+                                  </ul>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 column-2-1 second-div-border column-styles ">
+                        <div class="row full-height">
+                            <div class="col-lg-12 col-md-12 col-sm-10 column-2-2 full-height column-styles">
+                                  <h2 class="heading">Legal</h2>
+                                    <ul class="list-unstyled clear-margins  ">
+                                        <li>
+                                          <a href="https://www.edx.org/edx-terms-service">Terms of Service &amp; Honor Code</a>
+                                        </li>
+                                        <li>
+                                          <a href="https://www.edx.org/edx-privacy-policy">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                          <a href="https://www.edx.org/accessibility">Accessibility Policy</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                          </div>
+                </div>
+                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 column-2-1 third-div-border column-styles">
+                      <div class="row full-height">
+                        <div class="col-lg-12 col-md-12 col-sm-10 full-height column-2-2 column-styles">
+                              <h2 class="heading">Connect</h2>
+                              <ul class="list-unstyled clear-margins  ">
+                                <li>
+                                  <a href="https://www.edx.org/blog">Blog</a>
+                                </li>
+                                <li>
+                                  <a href="https://courses.edx.org/support/contact_us">Contact Us</a>
+                                </li>
+                                <li>
+                                  <a href="https://support.edx.org/">Help Center</a>
+                                </li>
+                              </ul>
+                        </div>
+                      </div>
+                 </div>
+
+
+
+
+
+            </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-9 ml-md-auto col-sm-7 column-3 flex-column fourth-div-border column-styles">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 column-3-1 social-app-links-div column-styles ml-auto">
+                      <div class="row">
+                        <div class="col-lg-12 col-md-12 column-3-2 column-styles">
+                             <ul class="list-inline list-unstyled social">
+                                    <li>
+                                        <a href="http://www.facebook.com/EdxOnline" class="social-links external" title="Facebook" rel="noreferrer">
+                                            <span class="icon fa fa-facebook-square" aria-hidden="true"></span>
+                                            <span class="sr">Like edX on Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/edXOnline" class="social-links external" title="Twitter" rel="noreferrer">
+                                            <span class="icon fa fa-twitter-square" aria-hidden="true"></span>
+                                            <span class="sr">Follow edX on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.linkedin.com/company/edx" class="social-links external" title="LinkedIn" rel="noreferrer">
+                                            <span class="icon fa fa-linkedin-square" aria-hidden="true"></span>
+                                            <span class="sr">Follow edX on LinkedIn</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/edxonline/" class="social-links external" title="Instagram" rel="noreferrer">
+                                            <span class="icon fa fa-instagram" aria-hidden="true"></span>
+                                            <span class="sr">Follow edX on Instagram</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.reddit.com/r/edx" class="social-links external" title="Reddit" rel="noreferrer">
+                                            <span class="icon fa fa-reddit-square" aria-hidden="true"></span>
+                                            <span class="sr">Subscribe to the edX subreddit</span>
+                                        </a>
+                                    </li>
+                             </ul>
+                            <ul class="list-inline list-unstyled app-links">
+                                    <li>
+                                        <a href="https://itunes.apple.com/us/app/edx/id945480667?mt=8" class="app-link external">
+                                            <img alt="Download the edX mobile app from the Apple App Store" src="./hw3_webpage_files/app_store_badge_135x40.d0558d910630.svg">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://play.google.com/store/apps/details?id=org.edx.mobile" class="app-link external">
+                                            <img alt="Download the edX mobile app from Google Play" src="./hw3_webpage_files/google_play_badge_45.6ea466e328da.png">
+                                        </a>
+                                    </li>
+                            </ul>
+                              <!--"EdX, Open edX, and MicroMasters are trademarks of edX Inc. registered in the U.S. and other countries-->
+                              <p class="copyright">© 2020 edX Inc. All rights reserved.
+                                  <br>
+                                     | 深圳市恒宇博科技有限公司
+                                    <a href="http://www.beian.miit.gov.cn/">
+                                         粤ICP备17044299号-2
+                                    </a>
+                              </p>
+                        </div>
+                  </div>
+                </div>
+
+                </div>
+
+        </div>
+    </div>
+
+
+
+
+</div>
+
+</footer>
+
+
+
+  
+
+    <link href="./hw3_webpage_files/lms-footer-edx.e990736a65ad.css" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+  </div>
+
+  
+  
+  <iframe src="./hw3_webpage_files/a1706490390.html" hidden="" tabindex="-1" title="Optimizely Internal Frame" height="0" width="0" style="display: none;"></iframe><script type="text/javascript" src="./hw3_webpage_files/jquery.scrollTo.525edcc52fe8.js"></script>
+  <script type="text/javascript" src="./hw3_webpage_files/jquery.flot.d3d45ff0c6a8.js"></script>
+
+  
+    
+<script type="text/javascript" src="./hw3_webpage_files/lms-courseware.515d666a83a0.js" charset="utf-8"></script>
+
+
+  
+
+
+
+
+<script type="text/javascript">
+    // Fast Preview was introduced in 2.5. However, it
+    // causes undesirable flashing/font size changes when
+    // MathJax is used for interactive preview (equation editor).
+    // Setting processSectionDelay to 0 (see below) fully eliminates
+    // fast preview, but to reduce confusion, we are also setting
+    // the option as displayed in the context menu to false.
+    // When upgrading to 2.6, check if this variable name changed.
+    window.MathJax = {
+      menuSettings: {CHTMLpreview: false}
+    };
+</script>
+
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [
+        ["\\(","\\)"],
+        ['[mathjaxinline]','[/mathjaxinline]']
+      ],
+      displayMath: [
+        ["\\[","\\]"],
+        ['[mathjax]','[/mathjax]']
+      ]
+    }
+  });
+</script>
+<script type="text/x-mathjax-config;executed=true">
+
+  // In order to eliminate all flashing during interactive
+  // preview, it is necessary to set processSectionDelay to 0
+  // (remove delay between input and output phases). This
+  // effectively disables fast preview, regardless of
+  // the fast preview setting as shown in the context menu.
+  MathJax.Hub.processSectionDelay = 0;
+
+  MathJax.Hub.signal.Interest(function(message) {
+    if(message[0] === "End Math") {
+        set_mathjax_display_div_settings();
+    }
+  });
+  function set_mathjax_display_div_settings() {
+    $('.MathJax_Display').each(function( index ) {
+      this.setAttribute('tabindex', '0');
+      this.setAttribute('aria-live', 'off');
+      this.removeAttribute('role');
+      this.removeAttribute('aria-readonly');
+    });
+  }
+</script>
+
+<script type="text/javascript">
+    // Activating Mathjax accessibility files
+    window.MathJax = {
+        menuSettings: {
+            collapsible: true,
+            autocollapse: false,
+            explorer: true
+        }
+    };
+</script>
+
+<!-- This must appear after all mathjax-config blocks, so it is after the imports from the other templates.
+     It can't be run through static.url because MathJax uses crazy url introspection to do lazy loading of
+     MathJax extension libraries -->
+<script type="text/javascript" src="./hw3_webpage_files/MathJax.js"></script>
+
+
+
+  
+    
+      <script type="text/javascript" src="./hw3_webpage_files/courseware_factory.1504fc10caef.js"></script>
+    <script type="text/javascript">
+        (function (require) {
+            require(['js/courseware/courseware_factory'], function (CoursewareFactory) {
+                
+    CoursewareFactory();
+  
+            });
+        }).call(this, require || RequireJS.require);
+    </script>
+
+
+
+  <script type="text/javascript">
+    var $$course_id = "course\u002Dv1:PennX+SD4x+3T2019";
+  </script>
+
+
+<script src="./hw3_webpage_files/HtmlBlockPreview.ce23fc84acdb55eed7d3.2fe9fe63986b.js" type="application/javascript"></script>
+<script src="./hw3_webpage_files/XModuleShim.0e349eed81367fb7ccdd.dd1461bd28b9.js" type="application/javascript"></script>
+<script src="./hw3_webpage_files/VerticalStudentView.0cc6b03817b21d48773d.e4ef694eb8ae.js" type="application/javascript"></script>
+<script src="./hw3_webpage_files/SequenceModule.7a1cf025f2ffff3e3279.6399ca71527b.js" type="application/javascript"></script>
+
+
+
+  
+
+
+    <!-- begin segment footer -->
+    <script type="text/javascript">
+        $(window).load(function() {
+            analytics.identify(
+                "34841304",
+                {
+                    email: "pmn99@comcast.net",
+                    username: "patrick_neggie"
+                },
+                {
+                    integrations: {
+                        // Disable MailChimp because we don't want to update the user's email
+                        // and username in MailChimp on every page load. We only need to capture
+                        // this data on registration/activation.
+                        MailChimp: false
+                    }
+                }
+            );
+        });
+    </script>
+    <!-- end segment footer -->
+
+  <script type="text/javascript" src="./hw3_webpage_files/noreferrer.aa62a3e70ffa.js" charset="utf-8"></script>
+  <script type="text/javascript" src="./hw3_webpage_files/navigation.08930e16ab3d.js" charset="utf-8"></script>
+  <script type="text/javascript" src="./hw3_webpage_files/header.309a1243e175.js"></script>
+  
+  <script type="text/javascript" src="./hw3_webpage_files/jquery_extend_patch.54dddef28d15.js"></script>
+
+
+
+
+<div id="reader-feedback" class="sr" aria-live="polite"></div><div class="tooltip" style="display: none; opacity: 0;"></div><div class="annotator-notice"></div><div class="annotator-notice"></div><div style="display: none; visibility: hidden;"><script type="text/javascript">var iCookieLength=30,sCookieName="prod.edx.affiliate_id",sSourceParameterName="utm_source",sMediumParameterName="utm_medium",sPartnerValue="affiliate_partner",sCookieDomain="edx.org",_getQueryStringValue=function(d){for(var c=document.location.search.substring(1).split("\x26"),b=0;b<c.length;b++){var a=c[b].split("\x3d");if(d.toLowerCase()==a[0].toLowerCase())return a[1]}},_setCookie=function(d,c,b){var a=new Date;a.setTime(a.getTime()+864E5*b);document.cookie=d+"\x3d"+c+"; expires\x3d"+a.toGMTString()+
+"; path\x3d/; domain\x3d."+sCookieDomain+";"};_getQueryStringValue(sSourceParameterName)&&_getQueryStringValue(sMediumParameterName)===sPartnerValue&&_setCookie(sCookieName,_getQueryStringValue(sSourceParameterName),iCookieLength);</script></div><script type="text/javascript" id="">var iCookieLengthDays=90,sCookieName="prod.edx.utm",sSourceParameterName="utm_source",sMediumParameterName="utm_medium",sCampaignParameterName="utm_campaign",sTermParameterName="utm_term",sContentParameterName="utm_content",sCookieDomain="edx.org",_getQueryStringValue=function(d){for(var c=document.location.search.substring(1).split("\x26"),a=0;a<c.length;a++){var b=c[a].split("\x3d");if(d.toLowerCase()==b[0].toLowerCase())return b[1]}},_setCookie=function(d,c,a){var b=new Date;a*=864E5;b.setTime(b.getTime()+
+a);document.cookie=d+"\x3d"+c+"; expires\x3d"+b.toGMTString()+"; path\x3d/; domain\x3d."+sCookieDomain+";"},sSourceValue=_getQueryStringValue(sSourceParameterName),sMediumeValue=_getQueryStringValue(sMediumParameterName),sCampaignValue=_getQueryStringValue(sCampaignParameterName),sTermValue=_getQueryStringValue(sTermParameterName),sContentValue=_getQueryStringValue(sContentParameterName);
+if(sSourceValue||sMediumeValue||sCampaignValue||sTermValue||sContentValue){var oCookieContent={utm_source:sSourceValue,utm_medium:sMediumeValue,utm_campaign:sCampaignValue,utm_term:sTermValue,utm_content:sContentValue,created_at:(new Date).getTime()};_setCookie(sCookieName,JSON.stringify(oCookieContent),iCookieLengthDays)};</script><div style="display: none; visibility: hidden;"><script type="text/javascript" id="hs-script-loader" async="null" defer="defer" src="./hw3_webpage_files/4982103(2).js"></script></div><iframe id="qualaroo_dnt_frame" src="./hw3_webpage_files/frame.html" style="width: 1px; height: 1px; display: none; opacity: 0;"></iframe><div style="display: none; visibility: hidden;">
+<script>!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1601661033380488");fbq("track","PageView");</script>
+<noscript></noscript>
+</div></body></html>
